@@ -1,0 +1,15 @@
+# Установка:  pip install -r requirements.txt
+# Запуск:     открыть solution.ipynb в VS Code (Jupyter), убедиться, что рядом лежат
+#             train.csv, test.csv
+#             FAST_MODE = False, затем Run All. Результат: submission.csv
+#
+# Версии бустингов закреплены (==) — на них решение протестировано и воспроизводимо.
+
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.3
+scipy>=1.11
+lightgbm==4.6.0
+xgboost==3.3.0
+catboost==1.2.10
+ipykernel>=6.25
